@@ -1,0 +1,136 @@
+body {
+	font-family: "Playfair Display";
+	font-size: 25px;
+	color: black;
+	background-color: white;
+	opacity: 0.9;
+	text-align: center;
+	position: relative;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+h3 {
+	font-weight: lighter;
+}
+
+a {
+	color: black;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	border-bottom: 1px solid black;
+}
+
+#mariage {
+	background-image: url('tournesol.jpg');
+	background-size: 100%;
+}
+
+.button {
+	height: 80px;
+	width: 200px;
+	background-color: black;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-line: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: "Cormorand Garamont";
+}
+
+
+.button a {
+	color: white;
+	text-decoration-line: none;
+}
+
+.button:hover {
+	color: black;
+	background-color: white;
+	transition: 0.7s;
+}
+
+.button a:hover {
+	color: black;
+	text-decoration-line: none;
+	transition: 0.7s;
+}
+
+
+#separator img {
+	width: 100%;
+	padding-top: 20px;
+}
+
+#localisation-container {
+	padding: 1em 8em 1em;
+}
+
+.localisation {
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	vertical-align: middle;
+	padding: 2px;
+}
+
+#liste-de-mariage {
+	padding: 1em 8em 1em;
+}
+
+#end{
+	
+	position: relative;
+	height: 700px;
+}
+
+.end-text {
+	position: absolute;
+	z-index: 1;
+	left: 20%;
+	top: 10em;
+	background-color: lightgrey;
+	width: 30%;
+}
+
+.end-image {
+	position: absolute;
+	z-index: -1;
+	left: 30%;
+	width: 60%;
+}
+
+.end-image img {
+	width: 60%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3em;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  
+  
+}

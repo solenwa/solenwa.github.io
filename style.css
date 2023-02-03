@@ -120,6 +120,11 @@ a {
 	padding: 10px;
 }
 
+.end-text h3 {
+	font-size: 1.25em;
+	font-weight: lighter;
+}
+
 .end-image {
 	position: absolute;
 	z-index: -1;

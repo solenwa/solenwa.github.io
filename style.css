@@ -36,7 +36,7 @@ a {
 
 #mariage {
 	background-image: url('tournesol.jpg');
-	background-size: 70%;
+	background-size: 75%;
 	background-position: center;
 }
 
@@ -99,6 +99,24 @@ a {
 
 .localisation-texte {
 	margin-top: 2em;
+}
+
+.hotel-example {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2%;
+	margin: 0 5%;
+}
+
+.hotel-example img {
+	width: 100%;
+	height: 100%;
+}
+
+.hotel-box {
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
 }
 
 .localisation-map {
@@ -259,6 +277,10 @@ h3 {
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-bottom: 1em;
+}
+
+.hotel-example {
+	display: inline-block;
 }
 
 }

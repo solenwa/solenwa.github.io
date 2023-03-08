@@ -131,6 +131,10 @@ a {
 	padding-bottom: 3em;
 }
 
+#liste-de-mariage h2 {
+	margin: 2%;
+}
+
 #end{
 	position: relative;
 	height: 32em;

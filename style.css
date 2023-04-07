@@ -6,6 +6,8 @@ body {
 	opacity: 0.9;
 	text-align: center;
 	position: relative;
+	width: 100vw;
+	margin: 0;
 }
 
 h1 {
@@ -97,6 +99,10 @@ a {
 	vertical-align: middle;
 }
 
+.localisation-box {
+	display: flex;
+}
+
 .localisation-texte {
 	margin-top: 2em;
 }
@@ -120,9 +126,9 @@ a {
 }
 
 .localisation-map {
- height: 20em;
- width: 25em;
- padding-left: 8em;
+	height: 20em;
+	width: 25em;
+	padding-left: 8em;
 }
 
 #liste-de-mariage {
@@ -144,7 +150,7 @@ a {
 	position: absolute;
 	z-index: 1;
 	left: 20%;
-	top: 10em;
+	top: 12vh;
 	background-color: lightgrey;
 	width: 30%;
 	padding: 1em;
@@ -206,13 +212,15 @@ body {
 @media only screen and (max-width: 500px) {
 
 body {
-	width: 100%;
-  min-width: 100%;
-  font-size: 1em;
+	width: 100vw;
+	font-size: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .header {
-	height: 3em;
+	height: 5em;
 }
 
 .button {
@@ -225,14 +233,20 @@ body {
 	object-fit: cover;
 }
 
+.localisation-box {
+	display: flex;
+	flex-direction: column;
+}
+
 .localisation-map {
- height: 10em;
- width: 10em;
- padding-left: 0em;
+ height: 20vh;
+ width: 70vw;
+ padding-left: 0;
 }
 
 #end{
 	height: 24em;
+	width: 100vw;
 }
 
 .end-image {
@@ -285,6 +299,14 @@ h3 {
 
 .hotel-example {
 	display: inline-block;
+}
+
+.hotel-box {
+	width: 50vw;
+}
+
+.hotel-box a {
+	padding: 2%;
 }
 
 }
